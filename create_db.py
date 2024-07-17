@@ -1,7 +1,7 @@
 import pymongo
 from pymongo import MongoClient
 
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://admin:admin@mycluster.w4b9g4s.mongodb.net/?retryWrites=true&w=majority&appName=MYCluster/epic-api")
 db = client["LahoreBadshah"]
 menu_collection = db["menu"]
 
